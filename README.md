@@ -61,6 +61,20 @@ In order to ensure that the Laravel community is welcoming to all, please review
 
 If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
+## Generate documentation
+
+```
+php artisan l5-swagger:generate
+```
+
+Create database structure and delete all data:
+
+```
+php artisan migrate:fresh
+```
+
+- [Testing ETSY API Key](https://developers.etsy.com/documentation/tutorials/quickstart#test-your-api-key)
+
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
