@@ -5,6 +5,7 @@ use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\API\StoreController;
 use App\Http\Controllers\API\EtsyController;
+use App\Http\Controllers\API\BeefreeController;
 
 /*
 |--------------------------------------------------------------------------
